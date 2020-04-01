@@ -30,8 +30,10 @@
 					
 					// insert more link
 					obj.append(
-						'<div class="clearboth">' +
-							'<a href="#" class="truncate_more_link"><u>' + options.moreText + '</u></a>' +
+                        '<div class="clearboth">' +
+                            '<u>' +
+                                '<a href="#" class="truncate_more_link">' + options.moreText + '</a>' +
+                            '</u>' +
 						'</div>'
 					);
 
